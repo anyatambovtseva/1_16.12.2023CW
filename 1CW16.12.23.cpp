@@ -4,7 +4,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
     int n;
-    cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ ìàññèâà: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
     cin >> n;
     int* array = new int[n];
     for (int i = 0; i < n; i++)
