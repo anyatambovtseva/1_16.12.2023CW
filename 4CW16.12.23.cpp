@@ -4,14 +4,14 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int n, sum=0;
-    cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ ìàññèâà: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
     cin >> n;
     int* array = new int[n];
     for (int i = 0; i < n; i++)
     {
         *(array + i) = i*i;
     }
-    cout << "ýëåìåíòû ìàññèâà: " << endl;
+    cout << "ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << endl;
     for (int i = 0; i < n; i++)
     {
         cout << array[i] << " ";
@@ -20,6 +20,6 @@ int main()
     {
         sum = sum + array[i];
     }
-    cout << endl << "ñóììà ýëåìåíòîâ ìàññèâà ðàâíà " << sum;
+    cout << endl << "ÑÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð° " << sum;
     return 0;
 }
